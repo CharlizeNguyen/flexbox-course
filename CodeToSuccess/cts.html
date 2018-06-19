@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ulf-8">
+	<title>Code</title>
+<style>
+ol {background-color: rgb(228, 188, 242);
+	color: rgb(219, 219, 219);
+}
+</style>
+<link href="style.css" rel="stylesheet">
+</head>
+<body id="body">
+<div id="divider"> Divider
+	<div>Divider in another Divider
+	</div>
+	</div>
+	<span>Span</span>
+	<p>Paragraph <br> Break </p>
+
+	<h1>Header 1</h1>
+	<h2>Header 2</h2>
+	<h3>Header 3</h3>
+	<h4>Header 4</h4>
+	<h5>Header 5</h5>
+	<h6>Header 6</h6>
+	<!--etc.-->
+	<p id="HTML Styles">
+	<b>Bold</b>
+	<br>
+	<strong>Strong, emphasizes a certain word with bold</strong>
+	<br>
+	<i>Italics</i>
+	<br>
+	<em>Emphasizes a certain word with italics</em>
+	<br>
+	<mark>Mark,Highlight</mark>
+	<br>
+	<small>Small</small>
+	<br>
+	Subscript 10<sub>10</sub>
+	<br>
+	Superscript 10<sup>10</sup>
+	<br>
+	<del>Delete</del> 
+</p>
+<hr>
+
+<ol class="list">
+<li>Ordered List</li>
+<li>Ordered List</li>
+</ol>
+<p class="list">Unordered list styles
+<ul class="list"; style='list-style-type: disc';>
+<li>Disc</li>
+</ul>
+<ul class="list"; style='list-style-type: none'>
+<li>None</li>
+</ul>
+<ul class="list"; style='list-style-type: square'>
+<li>Square</li>
+</ul>
+<ul class="list"; style='list-style-type: circle'>
+<li>Circle</li>
+	</ul>
+</p>
+<div style="font-size: 2em; color: rgb(219, 219, 219); background-color: rgb(228, 188, 242);">Inline CSS style</div>
+
+<hr>
+<div id="id&classes"> Id uses #, classes use .</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur <span id="random"> adipiscing elit, sed do</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+</p>
+<div id='blocks'>
+  <div class='block'></div>
+  <div class='block'></div>
+</div>
+<div id='square'>
+  <div class='square'></div>
+  <div class='square'></div>
+</div>
+<hr style>
+
+<style>
+table{
+width: 100%;
+border-collapse: collapse;
+}
+th{
+	background-color: black;
+	color: white;
+}
+td{
+	background-color: white;
+	color: black;
+}
+td,th{
+	text-align: left;
+	padding: 10px;
+	border: 1px solid black;
+}
+#notes{
+	text-align: ;
+}
+
+</style>
+
+<table>
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th rowspan='4' id='notes'>Notes</th>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>4</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>6</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td colspan='3'></td>
+		<tr>
+</table>
+<hr>
+<div>
+	<!--Input box-->
+<label form="name">Name:</label>
+    <input type="text" name="name" placeholder="Smith,John" required><br><hr>
+    <!--Textbox-->
+    <label for="message">Message:</label><br>
+<textarea name="message" rows="5" cols="20"></textarea><br><hr>
+<!--Checkbox-->
+    <label for="options">Select Your Age Range:</label><br>
+    <input type="checkbox" name="options" value="12_or_under">12 or under<br>
+<input type="checkbox" name="options" value="13-20"> 13-20<br>
+<input type="checkbox" name="options" value="21-29"> 21-29<br>
+<input type="checkbox" name="options" value="30+"> 30+<br><hr>
+<!--Radio Buttons-->
+<label for="choose">Choose:</label><br>
+<input type="radio" name="choose" value="One"> One<br>
+<input type="radio" name="choose" value="or_the_other"> Or The Other<br><hr>
+<!--Drop down-->
+<label for="source">Grammar:</label><br>
+<div>_______ in the house.</div>
+<select name="source">
+	<option value="there">There</option>
+	<option value="their">Their</option>
+	<option value="they're">they're</option>
+</select>
+<br><hr>
+<!--Organized Drop down-->
+<label for="Random">Random:</label>
+<select name="Random">
+  <optgroup label="Favorite">
+    <option value="fav_number">Number</option>
+    <option value="fav_item">Item</option>
+  </optgroup>
+  <optgroup label="Lucky">
+    <option value="luc_number">Number</option>
+    <option value="luc_item">Item</option>
+  </optgroup>
+</select>
+<br><hr>
+<!--Button-->
+<form action="contact_form.php" method="get">
+      <input type="Submit">
+    </form>
+    <hr>
+    <div>Custom Character Values
+    	<!--Two different ways to write these characters-->
+    <p>Ampersand: &amp; &#38;</p>
+ 	 <p>Copyright: &copy; &#169;</p>
+  	<p>Registered tademark: &reg; &#174;</p>
+  	<p>Greater than: &gt; &#62;</p>
+  	<p>Lesser than: &lt; &#60;</p>
+  	<p>Double quotes: &quot; &#34;</p>
+ 	 <p>Single quotes: &apos; &#39;</p>
+</div>
+</body>
+</html>
+<!--219, 219, 219 gray-->
+<!--228, 188, 242 purple-->
+<!--201, 250, 252 blue-->
+<!--183, 255, 189 mint-->
+

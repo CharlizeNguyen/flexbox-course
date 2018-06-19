@@ -1,0 +1,51 @@
+#divider {
+	color: rgb(255, 0, 216);
+	background-color: rgb(204, 255, 210);
+	-webkit-animation: myAnimation 5s infinite;
+	animation: myAnimation 5s infinite;
+	border-radius: 10px;
+	padding: 10px;
+}
+@-webkit-keyframes 'myAnimation'{
+	50%{
+		background-color: rgb(228, 188, 242);
+	}
+}
+
+
+.list {
+	color: purple;
+	background-color: rgb(219, 219, 219);
+	border-left: 15px solid #ab3989;
+}
+
+#id&classes{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: orange;
+}
+
+#random{
+	font-weight: 80px;
+	background-color: white;
+}
+
+#body{
+	background-color: rgb(219, 219, 219);
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(201, 250, 252);
+  float: left;
+  margin: 25px;
+}
+
+.square {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(183, 255, 189);
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+}
